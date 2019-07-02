@@ -125,6 +125,7 @@ hr {
 .fa-icon {
   margin: 0 10px;
   cursor: pointer;
+  color: black;
 }
 
 .fa-icon:hover {

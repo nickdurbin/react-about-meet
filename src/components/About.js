@@ -1,10 +1,12 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
+// import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 // Font Awesome Style Imports
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 // Image for the Meet Us cards.
 import Aaron from '../Aaron.png';
@@ -43,8 +45,12 @@ function About () {
                 UI/UX Design.
               </p>
               <div className="fa">
+                <a href="https://github.com/aaronspurgeon" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                </a>
+                <a href="https://www.linkedin.com/in/aaron-spurgeon-9919a7183/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+                </a>
               </div>
             </div>
           </div>
@@ -60,8 +66,12 @@ function About () {
                 UI/UX Design.
               </p>
               <div className="fa">
+                <a href="https://github.com/miklo88" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                </a>
+                <a href="https://www.linkedin.com/in/carl-redding-000a4281/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+                </a>
               </div>
             </div>
           </div>
@@ -77,8 +87,12 @@ function About () {
                 UI/UX Design.
               </p>
               <div className="fa">
+                <a href="https://github.com/clifhodges13" target="_blank" rel="noopener noreferrer">  
                 <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                </a>
+                <a href="https://www.linkedin.com/in/clifhodges/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+                </a>
               </div>
             </div>
           </div>
@@ -97,8 +111,12 @@ function About () {
                 UI/UX Design.
               </p>
               <div className="fa">
+                <a href="https://github.com/leachcoding" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                </a>
+                <a href="https://www.linkedin.com/in/jay-leach-328b7a188/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+                </a>
               </div>
             </div>
           </div>
@@ -114,8 +132,12 @@ function About () {
                 UI/UX Design.
               </p>
               <div className="fa">
+                <a href="https://github.com/nickdurbin" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
-                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+                </a>
+                <a href="https://www.linkedin.com/in/ndurbin/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x' />
+                </a>
               </div>
             </div>
           </div>
@@ -131,15 +153,19 @@ function About () {
                 UI/UX Design.
               </p>
               <div className="fa">
+                <a href="https://github.com/bobbidigi" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                </a>
+                <a href="https://www.linkedin.com/in/bobbidigi/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+                </a>
               </div>
             </div>
           </div>
 
         </div>
       </div>
-    </div>   
+    </div> 
   )
 }
 
