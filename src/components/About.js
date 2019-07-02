@@ -1,6 +1,21 @@
 import React from 'react';
-// import Aaron from './img';
 
+// Font Awesome Style Imports
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import * as Brands from '@fortawesome/fontawesome-brands-solid';
+
+// Image for the Meet Us cards.
+import Aaron from '../Aaron.png';
+import Carl from '../Carl.png';
+import Clif from '../Clif.png';
+import Jay from '../Jay.png';
+import Nick from '../Nick.png';
+import Robert from '../Robert.png';
+import Linkedin from '../linkedin-brands.svg';
+import Github from '../github-brands.svg';
+
+ 
 function About () {
   return (
     // This is the About Us Section Main Container
@@ -12,7 +27,6 @@ function About () {
           </div>
         <div className="about-text">
           <p>Here at LYBL we take pride in living life to fullest. Whether it be a nice vacation to an exotic location or simply a night out in your home town, LYBL has you covered. We value the most important commodity you have - your time. Let us do all the hardwork for you and plan your day or night. We want to thank you for stopping by our site but before you go we do have one favor to ask, and that is simply to make sure that you Live Your Best Life!</p>
-          {/* <button className="btn-meet">Meet Our Team</button> */}
         </div>
       </div>
 
@@ -22,19 +36,21 @@ function About () {
 
           <div className="meet-card">
             <div className="card-img-container">
-              <img src='' className="card-img" alt="logo" />
+              <img src={Aaron} className="card-img" alt="logo" />
             </div>
             <div className="card-text">
               <h3>Aaron Spurgeon</h3>
               <p>
                 Full-Stack Web Developer. 
               </p>
+              <FontAwesomeIcon icon={Github} />
+              <FontAwesomeIcon icon={Linkedin} />
             </div>
           </div>
 
           <div className="meet-card">
             <div className="card-img-container">
-              <img src='./src/img/nick-img.jpg' className="card-img" alt="logo" />
+              <img src={Carl} className="card-img" alt="logo" />
             </div>
             <div className="card-text">
               <h3>Carl Redding</h3>
@@ -47,7 +63,7 @@ function About () {
 
           <div className="meet-card">
             <div className="card-img-container">
-              <img src='./src/img/nick-img.jpg' className="card-img" alt="logo" />
+              <img src={Clif} className="card-img" alt="logo" />
             </div>
             <div className="card-text">
               <h3>Clif Hodges</h3>
@@ -63,7 +79,7 @@ function About () {
         <div className="meet-bottom">
           <div className="meet-card">
             <div className="card-img-container">
-              <img src='./src/img/nick-img.jpg' className="card-img" alt="logo" />
+              <img src={Jay} className="card-img" alt="logo" />
             </div>
             <div className="card-text">
               <h3>Jay Leach</h3>
@@ -75,7 +91,7 @@ function About () {
 
           <div className="meet-card">
             <div className="card-img-container">
-              <img src='./src/img/nick-img.jpg' className="card-img" alt="logo" />
+              <img src={Nick} className="card-img" alt="logo" />
             </div>
             <div className="card-text">
               <h3>Nick Durbin</h3>
@@ -87,7 +103,7 @@ function About () {
 
           <div className="meet-card">
             <div className="card-img-container">
-              <img src='./src/img/nick-img.jpg' className="card-img" alt="logo" />
+              <img src={Robert} className="card-img" alt="logo" />
             </div>
             <div className="card-text">
               <h3>Robert Allen</h3>
