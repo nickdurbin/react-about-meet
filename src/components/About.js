@@ -3,7 +3,8 @@ import React from 'react';
 // Font Awesome Style Imports
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import * as Brands from '@fortawesome/fontawesome-brands-solid';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 // Image for the Meet Us cards.
 import Aaron from '../Aaron.png';
@@ -12,10 +13,7 @@ import Clif from '../Clif.png';
 import Jay from '../Jay.png';
 import Nick from '../Nick.png';
 import Robert from '../Robert.png';
-import Linkedin from '../linkedin-brands.svg';
-import Github from '../github-brands.svg';
 
- 
 function About () {
   return (
     // This is the About Us Section Main Container
@@ -41,10 +39,13 @@ function About () {
             <div className="card-text">
               <h3>Aaron Spurgeon</h3>
               <p>
-                Full-Stack Web Developer. 
+                Full-Stack Web Developer.<br />
+                UI/UX Design.
               </p>
-              <FontAwesomeIcon icon={Github} />
-              <FontAwesomeIcon icon={Linkedin} />
+              <div className="fa">
+                <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+              </div>
             </div>
           </div>
 
@@ -58,6 +59,10 @@ function About () {
                 Full-Stack Web Developer.<br />
                 UI/UX Design.
               </p>
+              <div className="fa">
+                <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+              </div>
             </div>
           </div>
 
@@ -71,6 +76,10 @@ function About () {
                 Full-Stack Web Developer.<br />
                 UI/UX Design.
               </p>
+              <div className="fa">
+                <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+              </div>
             </div>
           </div>
 
@@ -84,8 +93,13 @@ function About () {
             <div className="card-text">
               <h3>Jay Leach</h3>
               <p>
-                Full-Stack Web Developer.
+                Full-Stack Web Developer.<br />
+                UI/UX Design.
               </p>
+              <div className="fa">
+                <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+              </div>
             </div>
           </div>
 
@@ -96,8 +110,13 @@ function About () {
             <div className="card-text">
               <h3>Nick Durbin</h3>
               <p>
-                Full-Stack Web Developer.
+                Full-Stack Web Developer.<br />
+                UI/UX Design.
               </p>
+              <div className="fa">
+                <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+              </div>
             </div>
           </div>
 
@@ -108,8 +127,13 @@ function About () {
             <div className="card-text">
               <h3>Robert Allen</h3>
               <p>
-                Full-Stack Web Developer.
+                Full-Stack Web Developer.<br />
+                UI/UX Design.
               </p>
+              <div className="fa">
+                <FontAwesomeIcon className="fa-icon" icon={faGithub} size='4x' />
+                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size='4x'/>
+              </div>
             </div>
           </div>
 
