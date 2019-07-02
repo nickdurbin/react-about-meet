@@ -1,3 +1,4 @@
+/* General Styling */
 * {
   box-sizing: border-box;
 }
@@ -11,7 +12,7 @@ html, body {
   font-family: 'Quicksand', sans-serif;
 }
 
-/* Meet Us Component */
+/* About LYBL Component */
 h2 {
   font-size: 3rem;
   font-weight: 600;
@@ -37,6 +38,7 @@ hr {
   border-top: 4px solid black;
 }
 
+/* About Section */
 .about-section {
   width: 100%;
 }
@@ -64,6 +66,7 @@ hr {
   padding: 1% 4%;
 }
 
+/* Start of the Meet the Team Section */
 .meet-section {
   display: flex;
   flex-direction: column;
@@ -86,6 +89,7 @@ hr {
   margin: 15px 0;
 }
 
+/* Styling for the cards */
 .meet-card {
   width: 28%;
   height: 325px;
@@ -115,6 +119,7 @@ hr {
   text-align: center;
 }
 
+/* Font Awesome Icons */
 .fa {
   display: flex;
   flex-direction: row;

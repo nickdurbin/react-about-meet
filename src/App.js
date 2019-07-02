@@ -6,9 +6,12 @@ class App extends React.Component {
   render () {
     return (
       <div>
+
+        {/* The rendering of the About Component */}
         <About>
           {About}
         </About>
+
       </div>
     )
   };

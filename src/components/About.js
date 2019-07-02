@@ -1,9 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 // Font Awesome Style Imports
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -19,7 +16,8 @@ import Robert from '../Robert.png';
 function About () {
   return (
     // This is the About Us Section Main Container
-      <div className="about-section"> 
+      <div className="about-section">
+
         <div className="about-container">
           <div className="about-header">
             <h2>About LYBL</h2> 
@@ -32,6 +30,8 @@ function About () {
 
       {/* This is the Meet Our Team Section Container */}
       <div className="meet-section">
+
+        {/* Meet us section for top cards */}
         <div className="meet-top">
 
           <div className="meet-card">
@@ -98,8 +98,11 @@ function About () {
           </div>
 
         </div>
+        {/* End of the top section */}
 
+        {/* Meet us section for top cards */}
         <div className="meet-bottom">
+
           <div className="meet-card">
             <div className="card-img-container">
               <img src={Jay} className="card-img" alt="logo" />
@@ -164,8 +167,11 @@ function About () {
           </div>
 
         </div>
+        {/* End of the bottom section */}
       </div>
-    </div> 
+      {/* End of Meet Us section */}
+    </div>
+    // About Us Container End
   )
 }
 
