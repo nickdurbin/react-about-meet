@@ -1,17 +1,23 @@
 import React from 'react';
 import './App.css';
 import About from './components/About';
+import FooterIndex from './Footer';
+import Contact from './Contact';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 class App extends React.Component {
   render () {
     return (
       <div>
+        <Router>
 
         {/* The rendering of the About Component */}
-        <About>
-          {About}
-        </About>
-
+          <Switch>
+            <Route path="/" exact component={About} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+          <FooterIndex />
+        </Router>
       </div>
     )
   };
